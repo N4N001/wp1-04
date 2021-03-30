@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+<?php    
     $money = 1000;
 
     if($money >= 859) {
         echo "Máš peníze na Fiziho golden money gun.";
     } elseif($money <= 0) {
-        echo "Nemáš peníze, na co chceš money gun?"
+        echo "Nemáš peníze, na co chceš money gun?";
     } else {
-        echo "Nemáš dost peněz."
-
+        echo "Nemáš dost peněz."; }
+?>
 </body>
 </html>
